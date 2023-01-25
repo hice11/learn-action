@@ -11,6 +11,6 @@ jobs:
     - name: "context"
     # 환경변수 사용
       env: 
-        COMMIT_ID: ${{githun.sha}}
+        COMMIT_ID: ${{github.sha}}
       run: echo "Commit id => $COMMIT_ID"
       
